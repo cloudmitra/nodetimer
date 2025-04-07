@@ -1,0 +1,33 @@
+{
+    "environments": [
+      {
+        "name": "dev",
+        "endpoints": [
+          { "name": "Dev API 1", "url": "https://google.com" },
+          { "name": "Dev API 2", "url": "https://google.com" }
+        ]
+      },
+      {
+        "name": "int",
+        "endpoints": [
+          { "name": "Int API 1", "url": "https://int-api1.example.com" },
+          { "name": "Int API 2", "url": "https://int-api2.example.com" }
+        ]
+      },
+      {
+        "name": "uat",
+        "endpoints": [
+          { "name": "UAT API 1", "url": "https://uat-api1.example.com" },
+          { "name": "UAT API 2", "url": "https://uat-api2.example.com" }
+        ]
+      },
+      {
+        "name": "prod",
+        "endpoints": [
+          { "name": "Prod API 1", "url": "https://prod-api1.example.com" },
+          { "name": "Prod API 2", "url": "https://prod-api2.example.com" }
+        ]
+      }
+    ]
+  }
+  
